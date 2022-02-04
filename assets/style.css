@@ -204,3 +204,19 @@ footer p {
     text-decoration: none;
     color: gray
 }
+
+@media only screen and (max-width: 600px) {
+    .cat_mains {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .cat_mains .col-6 {
+        width: 25%;
+    }
+
+    .cat_mains h5 {
+        font-size: 14px;
+
+    }
+}
